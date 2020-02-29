@@ -1,7 +1,7 @@
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
 .navbar li {
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     margin-right: 10px;
     margin-left: 10px;
     cursor: pointer;
@@ -14,19 +14,15 @@
     color: #000;
     text-decoration: none;
   }
-  
 
-/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 600 pixels */
-@media (max-width: 600px) {
+/* I used a stylesheet I found as the basis for the beloow, but then I think bootstrap.min.css is taking
+ precedence */
+@media (max-width: 800px) {
     .navbar li {
       padding: 10px;
+      color:gainsboro;
     }
-  
-    .post {
-      margin-right: 30px;
-      margin-left: 30px;
-    }
-  
+    
     .navbar ul {
       visibility: hidden;
     }
@@ -35,4 +31,142 @@
       visibility: visible;
     }
   }
-  
+
+summary{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+
+div.col-lg-5 div.jumbotron{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+div.col-lg-7 div.jumbotron{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 10px;
+} 
+
+div.container {
+   margin: 0;
+   padding: 0,0,0,0;
+   border: 0;
+
+}
+
+div.col-sm-12 div.jumbotron{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 600px){
+    .comp-img{
+        height: 400px;
+        width: 400px;
+    }
+}
+
+#summary-img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    size: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.jumbotron{
+    background-color:white;
+}
+
+.navbar-brand{
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 0;
+    margin-left: 50px;
+}
+ .header-title{
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif 
+ }
+@media screen and (max-width:991px){
+div nav a strong.header-title{
+    font-weight: 700;
+    color: white;
+    font-size: 28px;
+    font-family: sans-serif
+}
+}
+.top-nav{
+    background-color:#f8f9fa;
+    padding-top: 1px; padding-bottom: 1px;
+}
+
+
+h1.display-4{
+    color:gray;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif
+}
+
+h5 {
+    color:gray;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0;
+    margin: 1px;
+    border: 0;
+    font-family: sans-serif
+}
+@media screen and (max-width:703px) and (min-width:601px){
+    .reg-img{
+        height: 400px;
+        widows: 400px;
+    }
+}
+
+tr:hover{
+    background-color:rgb(218, 218, 218);
+}
+
+li.show a.nav-link{
+    background-color:rgb(218, 218, 218);
+}
+
+div table.table{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width:1250px) and (min-width:992px){
+    div div p.home-p{
+        margin-left: 45px!important;
+        padding-left:5px;
+        
+    }
+}
+
+#home-para{
+    font-size: 20px;
+    font-weight: 450;
+}
+
+    
